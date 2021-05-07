@@ -1,11 +1,23 @@
 // ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// Single line comment
+/* Multi-line comment */
+
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World! Welcome back to C++!!!\n";
+    string name;
+    cout << "Please enter your name:";
+
+    cin >> name;
+    //C-out using nmame space
+    cout << "Hello, " << name << ", thanks for getting back into Cpp" <<endl;
+    
+    //C-out v2
+    std::cout << "Hello, " << name << ", thanks for getting back into Cpp" <<"\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
