@@ -1,8 +1,5 @@
-// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// practiceGame.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
-// Single line comment
-/* Multi-line comment */
 
 // Input/Output Library
 #include <iostream>
@@ -13,39 +10,14 @@
 // Math Library (ceil, floor) 
 #include <cmath>
 
-using namespace std;
-
-void favFood(string name);
 int randomNumberGenerator();
 
 int main()
 {
-    string name;
-    cout << "Please enter your name:\n";
-
-    cin >> name;
-    //C-out using nmame space
-    cout << "Hello, " << name << ", thanks for getting back into Cpp" <<endl;
-    
-    //C-out v2
-    //std::cout << "Hello, " << name << ", thanks for getting back into Cpp" <<"\n";
-
-	favFood(name);
-    return 0;
+    std::cout << "Hello World!\n";
 }
 
-void favFood(string name) {
-	string favoriteFood;
-
-	//Ask for favorite food:
-	cout << "Hey, " << name << ", what is your favorite food?:\n";
-	cin >> favoriteFood;
-
-	cout << name << " your favorite food is: " << favoriteFood << endl;
-	return;
-}
-
-int randomNumberGenerator(){
+int randomNumberGenerator() {
 
     return 0;
 }
